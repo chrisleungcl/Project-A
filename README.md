@@ -1,4 +1,4 @@
 # Project A
 by Christopher Leung
 
-First Project
+First Coding Project
