@@ -1,4 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway|Open+Sans);
+
 $body-bg: #2c3e50;
+$font-family-sans-serif: 'Raleway';
 $navbar-inverse-bg: #95a5a6;
 $navbar-inverse-link-color: white;
+
 @import 'bootstrap';
+
+.center { text-align: center;}
+
+.navbar-brand { font-weight: bold;}
