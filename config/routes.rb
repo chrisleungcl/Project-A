@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   devise_for :users
   devise_for :views
-  root 'pages#home'
+  root 'pins#index'
   get "about" => "pages#about" # creates about path
   get "team" => "pages#team"
    # creates about path
@@ -33,7 +33,6 @@ Rails.application.routes.draw do
   #       get 'sold'
   #     end
   #   end
-
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
